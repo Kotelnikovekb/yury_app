@@ -1,3 +1,12 @@
-bricks:
-  yury_app:
-    path: .
+name: yury_app
+description: A new Flutter app template
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.60 <0.1.0"
+
+vars:
+  project_name:
+    type: string
+    description: The name of the project
+    default: yury_app
